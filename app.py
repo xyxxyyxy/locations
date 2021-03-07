@@ -5,8 +5,6 @@ import os
 import re
 
 DATABASE_URL = os.environ['DATABASE_URL']
-
-print(DATABASE_URL)
 app = Flask(__name__)
 
 
