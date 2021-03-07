@@ -16,7 +16,7 @@ returns paginated list of restaurants, you can change page and page size along w
 - ?direction=asc
 - ?sort=id
 
-defaults are shown above
+defaults are shown above.
 
 ### PUT RESTAURANTS
 
@@ -42,13 +42,13 @@ accepts json object to be put (inserted or updated) into database requiring foll
 
 `GET https://locations-restaurant.herokuapp.com/restaurants/<id>`
 
-returns a specific retaurant by its id.
+returns a specific restaurant by its id.
 
 ### DELETE RESTAURANTS <ID>
 
 `DELETE https://locations-restaurant.herokuapp.com/restaurants/<id>`
 
-removes a specific retaurant by its id.
+removes a specific restaurant by its id.
 
 
 ### GET RESTAURANTS STATISTICS
@@ -61,4 +61,4 @@ requieres arguments:
 - ?latitude
 - ?radius
 
-returns average, standard deviation and count of restaurants in the specified radius of the given coordinates
+returns average, standard deviation and count of restaurants in the specified radius of the given coordinates.
