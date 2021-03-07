@@ -51,7 +51,7 @@ returns a specific retaurant by its id.
 removes a specific retaurant by its id.
 
 
-### DELETE RESTAURANTS <ID>
+### GET RESTAURANTS STATISTICS
 
 `GET https://locations-restaurant.herokuapp.com/restaurants/statistics`
 
