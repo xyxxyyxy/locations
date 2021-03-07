@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 
 def connect():
-    conn = psycopg2.connect(DATABASE_URL, sslmode='require', database='restaurants')
+    conn = psycopg2.connect(DATABASE_URL, sslmode='require')
     register(conn)
     cursor = conn.cursor()
     return conn, cursor
